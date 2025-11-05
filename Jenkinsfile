@@ -2,7 +2,7 @@ pipeline {
     agent any
     options {
         // Le nom du canal et l'ID de l'identifiant secret de Slack dans Jenkins
-        slackNotifier (
+        slackSend (
             notifyStart: true,
             notifySuccess: true,
             notifyFailure: true,
